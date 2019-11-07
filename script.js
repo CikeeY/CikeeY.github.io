@@ -65,7 +65,7 @@ setInterval(function () {
         g.fillRect(pob.x, pob.y, s, s);
         // s - это ширина и высота нашего "квадрата"
     });
-}, 1000 / 30);
+}, 1000 / 15);
 
 onkeydown = function (e) {
     var k = e.keyCode;
